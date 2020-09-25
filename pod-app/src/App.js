@@ -1,16 +1,17 @@
 import React from 'react';
 import './App.css';
 import 'semantic-ui-css/semantic.min.css'
-import TestUI from './components/Navbar/Navbar'
+import { Container } from 'semantic-ui-react'
 import Navbar from './components/Navbar/Navbar';
+import CreatePage from './components/CreatePage/CreatePage'
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <header className="App-header">
-
-      </header>
+      <Container >
+        <Navbar />
+        <CreatePage />
+      </Container>
     </div>
   );
 }

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { Menu, Segment } from 'semantic-ui-react'
 
 class Navbar extends Component {
-    state = { activeItem: 'home' }
+    state = { activeItem: 'create' }
 
     handleItemClick = (e, { name }) => this.setState({ activeItem: name })
 
@@ -12,7 +12,11 @@ class Navbar extends Component {
         return (
             <div>
                 <Menu pointing secondary>
-
+                    <Menu.Menu position='left'>
+                        <Menu.Item
+                            name='LOGO'
+                        />
+                    </Menu.Menu>
                     <Menu.Menu position='right'>
                         <Menu.Item
                             name='CREATE'
