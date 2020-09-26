@@ -6,7 +6,7 @@ class MenuBar extends Component {
     render() {
         return (
             <Navbar bg="light" variant="light">
-                <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+                <Navbar.Brand href="#home">ShirtOnDemand</Navbar.Brand>
                 <Navbar.Toggle />
                 <Navbar.Collapse className="justify-content-end">
                     <Nav.Link href="#home">CREATE</Nav.Link>

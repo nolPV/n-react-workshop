@@ -1,0 +1,22 @@
+.btn-select-color-white {
+    height: 1.5em;
+    width: 1.5em;   
+    margin-left: 1em;
+}
+
+.btn-select-color-white:hover{
+    background-color: white !important; 
+}
+
+.btn-select-color-black {
+    height: 1.5em;
+    width: 1.5em;   
+}
+
+.text-form {
+    width: 100%;
+}
+
+.graphic ion-icon:hover {
+    cursor: pointer;
+}

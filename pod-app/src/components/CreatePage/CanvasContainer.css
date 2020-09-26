@@ -1,0 +1,30 @@
+.shirt-img {
+    width: 25em;
+}
+
+.print-text-area {
+    width: 10em;
+    height: 10em;
+    border: 2px solid #c9c9c9;
+    margin: auto;
+    position: absolute;
+    top:6.5em; left: 0; right: 0;
+    word-wrap: break-word;
+}
+
+.black-text {
+    color: white;
+}
+
+.white-text {
+    color: black;
+}
+
+.graphic-img {
+    font-size: 4em;
+    padding-top: -1em;
+}
+
+.text {
+    font-size: 1.4em;
+}
