@@ -1,6 +1,6 @@
 # n-react-workshop
 ## 06. Panuwat Vongsuwansiri
 
-[Live demo](https://n-react-todos.web.app/)
+[Live demo](https://n-reactjs-workshop.web.app)
 <br />
 **developed by NolPV**
